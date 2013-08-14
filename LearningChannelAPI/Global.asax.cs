@@ -15,7 +15,7 @@ namespace LearningChannelAPI
 	public class WebApiApplication : System.Web.HttpApplication
 	{
 		protected void Application_Start()
-		{cbf hg
+		{
 			AreaRegistration.RegisterAllAreas();
 
 			WebApiConfig.Register(GlobalConfiguration.Configuration);
